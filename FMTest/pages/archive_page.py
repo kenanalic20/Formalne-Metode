@@ -55,3 +55,13 @@ class ArhivaPage:
             EC.element_to_be_clickable((By.XPATH, xpath_button))
         )
         button_element.click()
+
+    def get_available_options_in_second_combobox(self):
+        xpath_combobox = '//*[@id="listOperator"]'
+        combobox_element = WebDriverWait(self.driver, 10).until(
+            EC.presence_of_element_located((By.XPATH, xpath_combobox))
+        )
+
+        select = Select(combobox_element)
+        options = [option.text for option in select.options]
+        return options
