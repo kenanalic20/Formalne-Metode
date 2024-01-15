@@ -12,7 +12,7 @@ def test_fit_webpage(driver):
     login_page.go_to()
     time.sleep(2)
 
-    login_page.login("IB200087", "fafarona951")
+    login_page.login("VAŠ INDEKS", "VAŠA LOZINKA")
     time.sleep(2)
 
     assert login_page.is_at_home_page()
