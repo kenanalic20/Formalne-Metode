@@ -7,3 +7,4 @@ Hvala svima koji su doprinijeli razvoju ovog projekta. Ovdje su kontributori:
 
 - [Dzenko123](https://github.com/Dzenko123)
 - [AlicA2](https://github.com/AlicA2)
+- [kenanalic20](https://github.com/kenanalic20)
